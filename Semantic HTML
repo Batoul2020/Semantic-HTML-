@@ -1,0 +1,45 @@
+Understanding HTML Semantics: A Beginner’s Guide
+
+If you’ve just started learning web development, you’ve probably seen HTML everywhere. It’s the backbone of every website — the structure that holds everything together. But not all HTML is created equal. Some code is just there, and some actually means something. That’s where HTML semantics comes in.
+
+Semantic HTML uses tags that describe what the content is. Instead of putting everything inside <div> elements, you use tags that tell browsers, search engines, and assistive technologies exactly what each part is for.
+
+Examples of semantic tags include:
+
+<header> – the top part of a page or section.
+
+<nav> – navigation menus.
+
+<main> – the main content of the page.
+
+<article> – self-contained content.
+
+<footer> – the bottom part of a page or section.
+
+
+It’s like labeling rooms in a house — “Kitchen,” “Bedroom,” “Bathroom” — instead of calling them all “Room.”
+
+Before semantics:
+
+<div id="header">
+  <h1>My Website</h1>
+</div>
+<div id="content">
+  <p>Welcome to my site!</p>
+</div>
+
+With semantics:
+
+<header>
+  <h1>My Website</h1>
+</header>
+<main>
+  <p>Welcome to my site!</p>
+</main>
+
+Semantic HTML improves accessibility, helps with SEO, and makes code easier to read and maintain.
+
+A simple practice exercise is to create an HTML layout for a blog post about your favorite hobby using at least five semantic tags. Focus on structure, not design, and see if the code still makes sense when read without a browser.
+
+Semantic HTML is a habit that benefits both users and developers, making websites more meaningful, accessible, and professional.
+
